@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 var courseSchema = new Schema({
     name: String,
     completedDownload: Boolean,
-    accessDate: Date,
+    accessDate: String,
     path: String,
     completedUserId: String,
     website: String

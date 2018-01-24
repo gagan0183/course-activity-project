@@ -2,6 +2,6 @@ var express = require('express');
 var event = require('./controllers/CourseController');
 var router = express.Router();
 
-router.get('/data/:filename', event.get);
+router.post('/addCourses/:filename', event.addCourses);
 
 module.exports = router;
