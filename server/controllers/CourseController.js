@@ -12,19 +12,27 @@ module.exports.addCourses = function(req, res) {
         let lastAccessDate = course[2].trim();
         var courseObject = new Course({
             name: courseName,
-            completedDownload: Boolean(completeDownload),
+            completedDownload: completeDownload,
             accessDate: lastAccessDate,
             path: "",
             completedUserId: "g.deepsingh1@gmail.com",
             website: "pluralsight"
         });
-        console.log(courseObject);
         courseObject.save(function(err) {
             if(err) {
-                console.log(err);
                 throw err;
             }
-            console.log('course saved successfully');
         })
     }
+    var successMessage = {};
+    successMessage.status = 200;
+    successMessage.message = "Courses inserted successfully : " + courses.length;
+    res.json(successMessage);
+}
+
+module.exports.getCourses = function(req, res) {
+    Course.find({}, function(err, users) {
+        if(err) throw err;
+        res.json(users);
+    })
 }

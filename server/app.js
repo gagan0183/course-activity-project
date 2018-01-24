@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var rootPath = path.normalize(__dirname + '/../');
 var router = require('./router');
 
-mongoose.connect('mongodb://127.0.0.1:27017');
+mongoose.connect('mongodb://127.0.0.1:27017/coursestracker');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(express.static(rootPath + '/app/'));
