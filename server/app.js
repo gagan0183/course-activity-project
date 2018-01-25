@@ -7,6 +7,10 @@ var rootPath = path.normalize(__dirname + '/../');
 var router = require('./router');
 
 mongoose.connect('mongodb://127.0.0.1:27017/coursestracker');
+var db = mongoose.connection;
+db.on('error', function() {
+    throw new Error('unable to connect to database');
+});
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(express.static(rootPath + '/app/'));
