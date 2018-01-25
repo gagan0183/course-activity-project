@@ -71,3 +71,64 @@ module.exports.courseUpdate = function(req, res) {
         })
     });
 }
+
+module.exports.updateDataNewCourses = function(req, res) {
+    var data = fs.readFileSync('data/' + req.params.filename + '.json', 'utf-8');
+    res.setHeader('Content-Type', 'application/json');
+    let courses = data.split("\n");
+    
+    var coursesUpdateCount = 0;
+    var coursesInsertCount = 0;
+    for (let i = 0; i < courses.length; i++) {
+        (function(i) {
+            let course = courses[i].split(";");
+            let courseName = course[0].trim();
+            let completeDownload = course[1].trim();
+            let lastAccessDate = course[2].trim();
+            Course.find({ name: courseName }, function(err, course) {
+                if(err) throw err;
+                if(course.length > 0) {
+                    Course.findOneAndUpdate({ name : courseName }, {
+                        name: courseName,
+                        completedDownload: completeDownload,
+                        accessDate: lastAccessDate,
+                        path: "",
+                        completedUserId: "gagan.bhullar988@gmail.com",
+                        website: "pluralsight"
+                    }, function(err) {
+                        if(err) throw err;
+                    })
+                    coursesUpdateCount++;
+                }
+                else {
+                    var courseObject = new Course({
+                        name: courseName,
+                        completedDownload: completeDownload,
+                        accessDate: lastAccessDate,
+                        path: "",
+                        completedUserId: "gagan.bhullar988@gmail.com",
+                        website: "pluralsight"
+                    });
+                    coursesInsertCount++;
+                    courseObject.save(function(err) {
+                        if(err) {
+                            console.log(err);
+                            throw err;
+                        }
+                    });
+                }
+                if((coursesUpdateCount + coursesInsertCount) == courses.length) {
+                    done(coursesUpdateCount, coursesInsertCount, res);
+                }
+            });
+        })(i);
+    }
+}
+
+function done(coursesUpdateCount, coursesInsertCount, res) {
+    var successMessage = {};
+    successMessage.status = 200;
+    successMessage.coursesUpdateCount = coursesUpdateCount;
+    successMessage.coursesInsertCount = coursesInsertCount;
+    res.status(200).json(successMessage);
+}
