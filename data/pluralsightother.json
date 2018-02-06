@@ -1,4 +1,68 @@
-Java EE: Programming Servlets; false; Jan 25, 2018
+Ethical Hacking: Session Hijacking; true; Feb 05, 2018
+Ethical Hacking: Cloud Computing; true; Feb 05, 2018
+Ethical Hacking: Evading IDS, Firewalls, and Honeypots; true; Feb 05, 2018
+Ethical Hacking: Hacking Mobile Platforms; true; Feb 05, 2018
+Ethical Hacking: Hacking Wireless Networks; true; Feb 05, 2018
+Ethical Hacking: SQL Injection; true; Feb 05, 2018
+Ethical Hacking: Hacking Web Applications; true; Feb 05, 2018
+Ethical Hacking: Hacking Web Servers; true; Feb 04, 2018
+Ethical Hacking: Denial of Service; true; Feb 04, 2018
+Ethical Hacking: Social Engineering; true; Feb 04, 2018
+Ethical Hacking: Buffer Overflow; true; Feb 04, 2018
+Ethical Hacking: Sniffing; true; Feb 04, 2018
+Ethical Hacking: Malware Threats; true; Feb 04, 2018
+Ethical Hacking: System Hacking; true; Feb 04, 2018
+Ethical Hacking: Enumeration; true; Feb 04, 2018
+Ethical Hacking: Scanning Networks; true; Feb 04, 2018
+Ethical Hacking: Reconnaissance/Footprinting; true; Feb 03, 2018
+Ethical Hacking: Understanding Ethical Hacking; true; Feb 03, 2018
+Angular Component Communication; true; Feb 02, 2018
+What’s New in Spring 5; true; Feb 02, 2018
+Windows 10 Fall Creators Update 2017; true; Feb 02, 2018
+Incident Detection and Response: The Big Picture; true; Feb 02, 2018
+Webpack: Transpiling and Bundling JavaScript; true; Feb 02, 2018
+Spring with JPA and Hibernate; true; Feb 01, 2018
+Operational Procedures for CompTIA A+ (220-902); true; Feb 01, 2018
+Software Troubleshooting for CompTIA A+ (220-902); true; Feb 01, 2018
+Security for CompTIA A+ (220-902); true; Feb 01, 2018
+Other Operating Systems &amp; Technologies for CompTIA A+ (220-902); true; Feb 01, 2018
+Windows Operating Systems for CompTIA A+ (220-902); true; Jan 31, 2018
+Introduction to the CompTIA A+ (220-902) Certification Exam; true; Jan 31, 2018
+Testing JavaScript for Node.js with Mocha; true; Jan 31, 2018
+Defeating Cross-site Scripting with Content Security Policy; true; Jan 31, 2018
+Unit Testing In Java With JUnit; true; Jan 31, 2018
+Introduction to Bitcoin and Decentralized Technology; true; Jan 30, 2018
+AWS Developer Fundamentals; true; Jan 30, 2018
+Introduction to SQL; true; Jan 30, 2018
+Using Outlook (2016); true; Jan 30, 2018
+Aspect Oriented Programming (AOP) using Spring AOP and AspectJ; true; Jan 30, 2018
+Raspberry Pi Home Server; true; Jan 30, 2018
+Raspberry Pi for Developers; true; Jan 29, 2018
+Angular: First Look; true; Jan 29, 2018
+From Collections to Streams in Java 8 Using Lambda Expressions; true; Jan 29, 2018
+Building Web Apps With Node.js; true; Jan 28, 2018
+Introduction To Hibernate; true; Jan 28, 2018
+AWS Certified Solutions Architect - Associate; true; Jan 28, 2018
+Play by Play: Building a Node Web API with Sam Artioli and John Papa; true; Jan 28, 2018
+MySQL Continuous Database Delivery with Flyway; true; Jan 28, 2018
+Introduction to GIS for Developers; true; Jan 28, 2018
+Code with Us: Angular Quick Start; true; Jan 28, 2018
+Getting Started with Spring Data JPA; true; Jan 28, 2018
+Introduction to Web Development; true; Jan 27, 2018
+Hardware &amp; Network Troubleshooting for CompTIA A+ (220-901); true; Jan 27, 2018
+Mobile Devices for CompTIA A+ (220-901); true; Jan 27, 2018
+Networking for CompTIA A+ (220-901); true; Jan 27, 2018
+Hardware for CompTIA A+ (220-901); true; Jan 27, 2018
+Introduction to the CompTIA A+ (220-901) Certification Exam; true; Jan 26, 2018
+Basic Administration of SharePoint 2016; true; Jan 26, 2018
+Getting Started with Microsoft Messaging Fundamentals; true; Jan 26, 2018
+Introduction to Virtualization; true; Jan 26, 2018
+Introduction to Business Information Technology; true; Jan 26, 2018
+End User Security Awareness; true; Jan 26, 2018
+Microsoft MTA: Security Fundamentals; true; Jan 26, 2018
+TCP/IP and Networking Fundamentals for IT Pros; true; Jan 26, 2018
+Context and Dependency Injection (CDI 1.1); true; Jan 25, 2018
+Java EE: Programming Servlets; true; Jan 25, 2018
 Bean Validation 1.1; true; Jan 25, 2018
 Java Persistence API (JPA) 2.1; true; Jan 25, 2018
 Java EE 7 Fundamentals; true; Jan 25, 2018
