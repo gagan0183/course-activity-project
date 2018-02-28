@@ -93,7 +93,7 @@ module.exports.updateDataNewCourses = function(req, res) {
                         completedDownload: completeDownload,
                         accessDate: lastAccessDate,
                         path: "",
-                        completedUserId: "gagan.bhullar988@gmail.com",
+                        completedUserId: "g.deepsingh1@gmail.com",
                         website: "pluralsight"
                     }, function(err) {
                         if(err) throw err;
@@ -106,7 +106,7 @@ module.exports.updateDataNewCourses = function(req, res) {
                         completedDownload: completeDownload,
                         accessDate: lastAccessDate,
                         path: "",
-                        completedUserId: "gagan.bhullar988@gmail.com",
+                        completedUserId: "g.deepsingh1@gmail.com",
                         website: "pluralsight"
                     });
                     coursesInsertCount++;
@@ -125,10 +125,45 @@ module.exports.updateDataNewCourses = function(req, res) {
     }
 }
 
+module.exports.getNotCompletedCourses = function(req, res) {
+    var data = fs.readFileSync('data/' + req.params.filename + '.json', 'utf-8');
+    let courses = data.split("\n");
+    res.setHeader('Content-Type', 'application/json');
+    
+    var coursesPresentCount = 0;
+    var coursesNotPresentCount = 0;
+    for (let i = 0; i < courses.length; i++) {
+        (function(i) {
+            let courseName = courses[i].trim();
+            Course.find({ name: courseName }, function(err, course) {
+                if(err) throw err;
+                if(course.length > 0) {
+                    coursesPresentCount++;
+                }
+                else {
+                    console.log(courseName);
+                    coursesNotPresentCount++;
+                }
+                if((coursesPresentCount + coursesNotPresentCount) == courses.length) {
+                    done1(coursesPresentCount, coursesNotPresentCount, res);
+                }
+            });
+        })(i);
+    }
+}
+
 function done(coursesUpdateCount, coursesInsertCount, res) {
     var successMessage = {};
     successMessage.status = 200;
     successMessage.coursesUpdateCount = coursesUpdateCount;
     successMessage.coursesInsertCount = coursesInsertCount;
+    res.status(200).json(successMessage);
+}
+
+function done1(coursesPresentCount, coursesNotPresentCount, res) {
+    var successMessage = {};
+    successMessage.status = 200;
+    successMessage.coursesPresentCount = coursesPresentCount;
+    successMessage.coursesNotPresentCount = coursesNotPresentCount;
     res.status(200).json(successMessage);
 }

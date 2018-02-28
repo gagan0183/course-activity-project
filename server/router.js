@@ -6,5 +6,6 @@ router.post('/addCourses/:filename', event.addCourses);
 router.get('/courses', event.getCourses);
 router.put('/course/:courseId', event.courseUpdate);
 router.put('/updatecourses/:filename', event.updateDataNewCourses);
+router.get('/getNotCompletedCourses/:filename', event.getNotCompletedCourses);
 
 module.exports = router;
