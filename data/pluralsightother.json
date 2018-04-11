@@ -1,5 +1,70 @@
+jQuery Forms and Bootstrap 3; true; Apr 12, 2018
+Blender Fundamentals; false; Apr 04, 2018
+Play by Play: Angular Testing with John Papa and Ward Bell; true; Apr 01, 2018
+Play by Play: Angular Design Solutions; true; Mar 30, 2018
+Play by Play: Angular 2/RxJS/HTTP and RESTful Services with John Papa and Dan Wahlin; true; Mar 29, 2018
+Getting Started With Elasticsearch for .NET Developers; true; Mar 29, 2018
+HTML5 Offline Applications with AngularJS, IndexedDB, and Bootstrap; true; Mar 29, 2018
+Build Your Own Bootstrap Business Application Template in MVC; true; Mar 28, 2018
+Bootstrap 3; true; Mar 27, 2018
+AngularJS Forms Using Bootstrap and MVC 5; true; Mar 27, 2018
+jQuery Advanced Topics; true; Mar 26, 2018
+jQuery Tips and Tricks; true; Mar 26, 2018
+Useful jQuery Plugins; true; Mar 25, 2018
+Fixing Common jQuery Bugs; true; Mar 24, 2018
+jQuery In-Depth; true; Mar 23, 2018
+AWS Certified DevOps Engineer: Monitoring, Metrics, and Logging; true; Mar 22, 2018
+AWS Certified DevOps Engineer: Continuous Delivery and Automation; true; Mar 22, 2018
+Getting Started with Google Play Services; true; Mar 21, 2018
+jQuery UI; true; Mar 21, 2018
+jQuery Fundamentals; true; Mar 21, 2018
+AWS Certified DevOps Engineer: High Availability and Elasticity; true; Mar 21, 2018
+AWS Certified DevOps Engineer: Security, Governance, and Validation; true; Mar 20, 2018
+Android Beginner Series: Just Enough Java; true; Mar 20, 2018
+Administering an Elasticsearch Cluster; true; Mar 20, 2018
+Searching and Analyzing Data with Elasticsearch: Getting Started; true; Mar 20, 2018
+Designing Schema for Elasticsearch; true; Mar 20, 2018
+Visual Studio Code; true; Mar 19, 2018
+Play by Play: Angular with Typescript with John Papa and Christopher Martin; true; Mar 19, 2018
+Using ES6 with TypeScript; true; Mar 18, 2018
+Advanced TypeScript; true; Mar 18, 2018
+A Practical Start with TypeScript; true; Mar 18, 2018
+Zero to Production Node.js on Amazon Web Services; true; Mar 18, 2018
+Docker in Production Using Amazon Web Services; true; Mar 16, 2018
+Big Data on Amazon Web Services; true; Mar 15, 2018
+Amazon Web Services Databases in Depth; true; Mar 15, 2018
+Amazon Web Services (AWS) Fundamentals for System Administrators; true; Mar 14, 2018
+Android Fundamentals: Localization and Internationalization; true; Mar 14, 2018
+Android Fundamentals: Implementing Effective Navigation; true; Mar 14, 2018
+Android Fundamentals: Fragments; true; Mar 13, 2018
+Building Cross-Platform iOS/Android Apps with Xamarin, Visual Studio, and C# - Part 1; true; Mar 13, 2018
+Building Cross-Platform iOS/Android Apps with Xamarin, Visual Studio and C# - Part 2; true; Mar 12, 2018
+Progressive Web App Fundamentals; true; Mar 12, 2018
+Android Fundamentals: Intents; true; Mar 11, 2018
+Android Fundamentals: BroadcastReceivers; true; Mar 11, 2018
+Android Fundamentals: Content Providers; true; Mar 11, 2018
+Understanding and Solving Java Memory Problems; true; Mar 10, 2018
+Building Cross Platform Native Mobile Applications with NativeScript; true; Mar 10, 2018
+Building a Realtime Web Application with Meteor.js; true; Mar 10, 2018
+Building a Web Application with Polymer.js and Material Design; true; Mar 09, 2018
+Streams, Collectors, and Optionals for Data Processing in Java 8; true; Mar 09, 2018
+Puppet 4: Language Essentials; true; Mar 09, 2018
+Learning Technology in the Information Age; true; Mar 08, 2018
+Becoming an Outlier: Reprogramming the Developer Mind; true; Mar 08, 2018
+Date and Time Fundamentals; true; Mar 08, 2018
+Time Management for Technical Professionals; true; Mar 07, 2018
+ReSharper Fundamentals; true; Mar 07, 2018
+Domain-Driven Design in Practice; true; Mar 07, 2018
+SOLID Principles of Object Oriented Design; true; Mar 06, 2018
+Refactoring Fundamentals; true; Mar 06, 2018
+Quick Start to JavaScript: Volume 1; true; Mar 05, 2018
+Puppet 4: Server and Puppet Enterprise; true; Mar 04, 2018
+Puppet 4: Hiera, the Single Source of Truth; true; Mar 04, 2018
+Puppet 4: Working with Files and Templates; true; Mar 04, 2018
+Puppet 4: Working with Modules and Classes; false; Mar 04, 2018
+Broadening Android App Appeal and Reach; false; Mar 04, 2018
+Leveraging the Power of the Android Platform; true; Mar 03, 2018
 Puppet Fundamentals for System Administrators; false; Feb 28, 2018
-Puppet 4: Language Essentials; false; Feb 25, 2018
 Choosing a JavaScript Framework; true; Feb 24, 2018
 Build Process, Workflows and Tooling With Grunt.js and Beyond; true; Feb 23, 2018
 JavaScript Build Automation With Gulp.js; true; Feb 22, 2018
@@ -52,7 +117,6 @@ Introduction to Bootstrap; true; Feb 15, 2018
 AngularJS with TypeScript; true; Feb 15, 2018
 TypeScript In-depth; true; Feb 14, 2018
 Basics of Programming with JavaScript; true; Feb 14, 2018
-Bootstrap 3; true; Feb 14, 2018
 Structuring JavaScript Code; true; Feb 14, 2018
 Learning To Program - Part 2: Abstractions; true; Feb 14, 2018
 Exam Review for CompTIA Linux+ (LX0-104) and LPI LPIC-1 (102-400); true; Feb 14, 2018
@@ -115,7 +179,7 @@ Spring with JPA and Hibernate; true; Feb 01, 2018
 Operational Procedures for CompTIA A+ (220-902); true; Feb 01, 2018
 Software Troubleshooting for CompTIA A+ (220-902); true; Feb 01, 2018
 Security for CompTIA A+ (220-902); true; Feb 01, 2018
-Other Operating Systems & Technologies for CompTIA A+ (220-902); true; Feb 01, 2018
+Other Operating Systems &amp; Technologies for CompTIA A+ (220-902); true; Feb 01, 2018
 Windows Operating Systems for CompTIA A+ (220-902); true; Jan 31, 2018
 Introduction to the CompTIA A+ (220-902) Certification Exam; true; Jan 31, 2018
 Testing JavaScript for Node.js with Mocha; true; Jan 31, 2018
@@ -136,7 +200,7 @@ MySQL Continuous Database Delivery with Flyway; true; Jan 28, 2018
 Introduction to GIS for Developers; true; Jan 28, 2018
 Getting Started with Spring Data JPA; true; Jan 28, 2018
 Introduction to Web Development; true; Jan 27, 2018
-Hardware & Network Troubleshooting for CompTIA A+ (220-901); true; Jan 27, 2018
+Hardware &amp; Network Troubleshooting for CompTIA A+ (220-901); true; Jan 27, 2018
 Mobile Devices for CompTIA A+ (220-901); true; Jan 27, 2018
 Networking for CompTIA A+ (220-901); true; Jan 27, 2018
 Hardware for CompTIA A+ (220-901); true; Jan 27, 2018
@@ -159,7 +223,6 @@ HTML5 Audio, Video, and WebRTC; true; Jan 25, 2018
 WebRTC Fundamentals; true; Jan 25, 2018
 HTML5 Web Component Fundamentals; true; Jan 25, 2018
 Java EE: The Big Picture; true; Jan 24, 2018
-AngularJS Forms Using Bootstrap and MVC 5; true; Jan 24, 2018
 Meeting Web Accessibility Guidelines (Section 508/ WCAG 2.0); true; Jan 24, 2018
 Semantic HTML; true; Jan 24, 2018
 Node Application Patterns; true; Jan 24, 2018
